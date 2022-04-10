@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: pl.migibud.CalculatorTest
+Test set: pl.account.AccountTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in pl.migibud.CalculatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 s - in pl.account.AccountTest

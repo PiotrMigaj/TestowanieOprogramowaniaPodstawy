@@ -10,22 +10,30 @@ class AccountTest {
     void shouldReturnZeroBalanceForNewAccount(){
         //given
         Account account = new Account();
-        final int expectedBalance = 0;
-        //when
-        int balance = account.getBalance();
         //then
-        assertEquals(expectedBalance,balance);
         assertEquals(0,account.getBalance());
     }
 
     @Test
     void shouldReturnBalanceOf100AfterDepositOf100(){
 
+        //given
+            Account account = new Account();
+        //when
+            account.deposit(100);
+        //then
+            assertEquals(100,account.getBalance());
     }
 
     @Test
     void shouldReturnValidAmountAfterWithdraw(){
-
+        //given
+            Account account = new Account();
+        //when
+            account.deposit(100);
+            account.withdraw(50);
+        //then
+            assertEquals(50,account.getBalance());
     }
 
     @Test
